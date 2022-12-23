@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Final_Project</string>
+
+    <string-array name="questions">
+
+        <item>Introduction of C++</item>
+        <item>Write a C++ program of prime number</item>
+        <item>Write a C++ program of Hello World</item>
+        <item>Write a C++ program of fibonacci series</item>
+        <item>Write a C++ program of summation of two number</item>
+        <item>Write a C++ program of minimum values in three numbers using STL</item>
+        <item>Write a C++ program of maximum values in three numbers using STL</item>
+        <item>Write a C++ program of multiplication table</item>
+        <item>Write a C++ program of palindrome string</item>
+        <item>Write a C++ program of modulo of two numbers</item>
+        <item>Write a C++ program of divide of two numbers</item>
+        <item>Reference Where you more information</item>
+
+    </string-array>
+
+    <string name="intro">C++ is a programming language developed by Bjarne Stroustrup in 1979 at Bell Labs. C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features. It is a superset of C, and that virtually any legal C program is a legal C++ program.\n
+        Our C++ programming tutorial will guide you to learn C++ programming one step at a time.
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/shareID"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+
+    <item
+        android:id="@+id/aboutusID"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/feedbackID"
+        android:title="Feedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/referenceID"
+        android:title="Reference"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logoutID"
+        android:title="Log Out"
+        app:showAsAction="never"
+        />
+
+</menu>

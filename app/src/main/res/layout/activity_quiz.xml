@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context=".QuizActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/k"
+        />
+
+    <TextView
+        android:id="@+id/q1TextviewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 01 : cin is an ____"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        />
+
+    <RadioGroup
+        android:id="@+id/q1radioGroupID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q1radioBtn1ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Object"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/q1radioBtn2ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/q1radioBtn3ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Package"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/q1radioBtn4ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Namespace"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextBtnD"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="nextFunction"
+        android:text="Next"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
